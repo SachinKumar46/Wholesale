@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <!-- MDB -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/> -->
+</head>
+
+<body>
+
+    <!-- Hamberger top -->
+    <nav class="navbar navbar-expand-lg  TopHamberger">
+        <div class="container">
+            <a href="index.html"><img src="image/Group38.png" alt="" class="img-fluid" srcset="" width="70">
+            </a>            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                    <div class="d-flex align-items-center">
+
+                        <li class="nav-item ">
+                            <a class="navbar-brand main-logo text-white" href="#">LOGO</a>
+                        </li>
+                        <li class="nav-item ">
+                            <img src="image/location-icon1.png" class="img-fluid" alt="" srcset="" width="27">
+                        </li>
+
+                        <li class="nav-item ">
+                            <a class="nav-link Address text-white" aria-current="page" href="#">New Delhi, 110022</a>
+                        </li>
+                    </div>
+
+                </ul>
+                <form class="navbar-nav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link text-white me-3" href="#">
+                                <img src="image/phone-outline-icon1.png " alt="" srcset=""
+                                    class="img-fluid me-1">+911801180180</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <form class="d-flex" role="search">
+                                <div class="position-relative w-100 me-5">
+                                    <input class="form-control me-5 pe-5 w-100" type="search" placeholder="Search for products"
+                                aria-label="Search">
+                               <span class="position-absolute HambergerInput" > <i class="fa-solid fa-magnifying-glass text-secondary "></i></span>
+                                </div>
+
+                            </form>
+                        </li>
+
+                        <li class="nav-item float-end">
+                            <a class="nav-link" href="#">
+                                <img src="image/heart-thin-icon5.png" class="img-fluid" alt="" srcset="">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="nav-link" href="#">
+                                <img src="image/order-placed-purchased-icon1.png" class="img-fluid" alt="" srcset="">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="nav-link" href="#">
+                                <img src="image/default-profile-picture-grey-male-icon1.png" class="img-fluid" alt=""
+                                    srcset="">
+                            </a>
+                        </li>
+                    </ul>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Nabvar -->
+    <nav class="navbar navbar-expand-lg NavbarBackgroundColor" >
+        <div class=" container">
+            <div class="d-flex">
+                <img src="image/hamburger-menu-icon1.png" alt="" class="img-fluid">
+                <a href="#" class="text-decoration-none nav-link ms-4 Browse-categories text-white">Browse Categories</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <img src="image/hamburger-menu-icon1.png" alt="" class="img-fluid">
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-between " id="navbarSupportedContent1">
+                <ul class="navbar-nav ms-auto me-5 nav-Color-Hover">
+                    <li class="nav-item ">
+                        <a href="index.html"  class="active nav-link text-decoration-none px-4 Home text-white nav-Border-Home  me-4">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="bestsellers.html" class="nav-link text-decoration-none px-4 Home text-white">Best Saller</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="brands.html" class="nav-link text-decoration-none px-4 Home text-white">Brands</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="blogs.html" class="nav-link text-decoration-none px-4 Home text-white">Blogs</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contactus.html" class="nav-link text-decoration-none px-4 Home text-white">Contact Us&nbsp;</a>
+                    </li>
+
+                </ul>
+                <div action="" class="">
+                    <ul class="navbar-nav list-unstyled">
+                        <li class="nav-item rounded  bg-dark  ">
+                            <a href="#"
+                                class="nav-link text-decoration-none  p-2 material-calculater text-center text-white">
+                                Material Calculater
+                                <img src="image/tick-symbol-icon1.png" alt="" srcset="" class="ms-1 img-fluid">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section>
+            <div class="my-4  d-flex align-items-center justify-content-start Home-Brands-YourCart">
+                <div class="d-flex align-items-center">
+                    <a class="nav-link  align-items-center" href="index.html">Home
+                        <i class="fa fa-thin fa-angle-right"></i></a>
+                </div>
+
+                <div class="d-flex align-items-center">
+                    <a class="nav-link   align-items-center px-2" href="brands.html">Brands
+                        <i class="fa fa-thin fa-angle-right"></i></a>
+                </div>
+
+                <div class="d-flex align-items-center">
+                    <a class="nav-link Moduler-kitchen" href="cart.html" >Your Cart
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="cart-Details-complete">
+                <div class="d-flex align-items-center justify-content-around p-5">
+                    <div class="text-center">
+                        <p class="your-cart">Your Cart</p>
+                        <span class="your-cart-circle text-white rounded-circle  px-4 py-3 position-relative" >1
+                            <span class="position-absolute your-cart-BorderRight" >
+                            </span>
+                            <span class="position-absolute your-cart-BorderRighttt" >
+                            </span>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="checkout-details">Checkout Details</p>
+                        <span class="your-cart-circless rounded-circle  px-4 py-3 position-relative">2
+                            <span class="position-absolute checkout-details-Border-right">
+
+                            </span>
+                        </span>
+
+                    </div>
+                    <div class="text-center">
+                        <p class="checkout-details">Order Complete</p>
+                        <span class="your-cart-circless rounded-circle  px-4 py-3">3</span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="Complete-Your-Order p-3 w-100 my-4">
+                <img src="image/tick-symbol-icon(1)1.png" alt="" srcset="" class="img-fluid">
+                <p class="d-inline Complete-Your-Order-Para">Complete your order and earn 45 Points for a discount on a
+                    future purchase</p>
+            </div>
+
+            <div class="row">
+                <div class="col-8">
+                    <p class="Shopping-Cart pb-2">Shopping Cart</p>
+                    <div class="d-flex justify-content-between py-2 Shopping-Cart-BorderBottom">
+                        <div>
+                            <img src="image/image40.png" alt="" srcset="" class="img-fluid">
+                        </div>
+                        <div>
+                            <p class="lorem-Ipsum-Cart">Lorem Ipsum is simply dummy text of the printing</p>
+                            <p class="inStockCart">In stock</p>
+                            <p class="Shipping-Charge-cart">Shipping Charge ₹ 200</p>
+                            <div class="d-flex align-items-center align-middle QTY-Cart">
+                                <div class="col-md-3">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>QTY</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <p class="px-4 pt-3 RemoveColorCart">REMOVE</p>
+                                <p class="pt-3 text-uppercase SaveForLater">Save for later</p>
+                            </div>
+
+                        </div>
+                        <div class="r-985">
+                            <p>₹ 985.00</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between  py-2 Shopping-Cart-BorderBottom">
+                        <div>
+                            <img src="image/image 40(1).png" alt="" srcset="" class="img-fluid">
+                        </div>
+                        <div>
+                            <p class="lorem-Ipsum-Cart">Lorem Ipsum is simply dummy text of the printing</p>
+                            <p class="inStockCart">In stock</p>
+                            <p class="Shipping-Charge-cart">Shipping Charge ₹ 200</p>
+                            <div class="d-flex align-items-center align-middle QTY-Cart">
+                                <div class="col-md-3">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>QTY</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <p class="px-4 pt-3 RemoveColorCart">REMOVE</p>
+                                <p class="pt-3 text-uppercase SaveForLater">Save for later</p>
+                            </div>
+
+                        </div>
+                        <div class="r-985">
+                            <p>₹ 985.00</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between  py-2 Shopping-Cart-BorderBottom">
+                        <div>
+                            <img src="image/image 40(2).png" alt="" srcset="" class="img-fluid">
+                        </div>
+                        <div>
+                            <p class="lorem-Ipsum-Cart">Lorem Ipsum is simply dummy text of the printing</p>
+                            <p class="inStockCart">In stock</p>
+                            <p class="Shipping-Charge-cart">Shipping Charge ₹ 200</p>
+                            <div class="d-flex align-items-center align-middle QTY-Cart">
+                                <div class="col-md-3">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>QTY</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <p class="px-4 pt-3 RemoveColorCart">REMOVE</p>
+                                <p class="pt-3 text-uppercase SaveForLater">Save for later</p>
+                            </div>
+
+                        </div>
+                        <div class="r-985">
+                            <p>₹ 985.00</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between py-2 Shopping-Cart-BorderBottom">
+                        <div>
+                            <img src="image/orbit-red-wires_31.png" alt="" srcset="" class="img-fluid">
+                        </div>
+                        <div>
+                            <p class="lorem-Ipsum-Cart">Lorem Ipsum is simply dummy text of the printing</p>
+                            <p class="inStockCart">In stock</p>
+                            <p class="Shipping-Charge-cart">Shipping Charge ₹ 200</p>
+                            <div class="d-flex align-items-center align-middle QTY-Cart">
+                                <div class="col-md-3">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>QTY</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <p class="px-4 pt-3 RemoveColorCart">REMOVE</p>
+                                <p class="pt-3 text-uppercase SaveForLater">Save for later</p>
+                            </div>
+
+                        </div>
+                        <div class="r-985">
+                            <p>₹ 985.00</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between py-2 Shopping-Cart-BorderBottom">
+                        <div>
+                            <img src="image/e-triveni-water-tank-base_51.png" alt="" srcset="" class="img-fluid">
+                        </div>
+                        <div>
+                            <p class="lorem-Ipsum-Cart">Lorem Ipsum is simply dummy text of the printing</p>
+                            <p class="inStockCart">In stock</p>
+                            <p class="Shipping-Charge-cart">Shipping Charge ₹ 200</p>
+                            <div class="d-flex align-items-center align-middle QTY-Cart">
+                                <div class="col-md-3">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>QTY</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <p class="px-4 pt-3 RemoveColorCart">REMOVE</p>
+                                <p class="pt-3 text-uppercase SaveForLater">Save for later</p>
+                            </div>
+
+                        </div>
+                        <div class="r-985">
+                            <p>₹ 985.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 ps-4">
+                    <div class="price-Details-cart py-2">
+                        <p class="priceDetails py-3 px-4 ">Price Details</p>
+                        <div class="px-4">
+                            <div class="d-flex justify-content-between align-items-center Price2Items">
+                                <p class="">Price (2 items)</p>
+                                <p class="">₹6,500</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center Price2Items pt-2">
+                                <p class="">Discount</p>
+                                <p class="price2500">-₹2,500</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center Delivery-Charges pt-2">
+                                <p class="">Delivery Charges</p>
+                                <p class="">₹1,000</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center Total-Ammount pt-3">
+                                <p class="">Total Ammount</p>
+                                <p class="Total-Ammount-5000" >₹5,000</p>
+                            </div>
+                            <p class="pt-3 You-will-save">You will save ₹4,341 on this order</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="float-end   position-relative">
+                <span class="position-fixed text-white bg-dark for-rotate">
+                    <p>BECOME A SELLER</p>
+                </span>
+            </div>
+        </section>
+
+        <div class="text-center place-Holder my-5">
+            <button class="placeHolder btn text-white px-3">
+                PLACER HOLDER
+            </button>
+        </div>
+    </div>
+
+
+    <footer class="text-center text-dark ">
+        <section class="pt-3">
+            <div class="container text-center text-md-start mt-5 position-relative">
+                <div class="row  footerOFHomePage BrandBorder">
+                    <div class="col-md-3 col-lg-4 col-xl-2 mx-auto mb-4">
+                        <p class="text-uppercase mb-4 para position-relative">
+                            Company
+                            <span class="position-absolute footerHeadingBorder"></span>
+                        </p>
+                        <p class=""><a href="aboutus.html" class="text-decoration-none " id="AboutColor">About</a></p>
+                        <p><a href="missionandvission.html" class="text-decoration-none ">Mission and vission</a></p>
+                        <p><a href="#" class="text-decoration-none">sitemap</a></p>
+                        <p><a href="career.html" class="text-decoration-none">Careers</a></p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mb-4">
+                        <p class="text-uppercase mb-4 para position-relative">
+                            QUICK links
+                            <span class="position-absolute footerHeadingBorder"></span>
+
+                        </p>
+                        <p><a href="returnpolicy.html" class="text-decoration-none">Return Policy</a></p>
+                        <p><a href="terms&policy.html" class="text-decoration-none">Terms & Privacy</a></p>
+                        <p><a href="refundsandcancilation.html" class="text-decoration-none">Refunds and Cancellations</a>
+                        </p>
+                        <p><a href="sellerpolicy.html" class="text-decoration-none">Seller Policy</a></p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-2 mx-auto  mb-4">
+                        <p class="text-uppercase mb-4 para position-relative">
+                            Others
+                            <span class="position-absolute footerHeadingBorder"></span>
+                        </p>
+                        <p><a href="contactus.html" class="text-decoration-none">Contacts Us</a></p>
+                        <p><a href="faq.html" class="text-decoration-none">FAQs</a></p>
+                        <p><a href="blogs.html" class="text-decoration-none">Blogs</a></p>
+                        <p><a href="becomeaseller.html" class="text-decoration-none">Become a Seller</a></p>
+
+
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto   mb-md-0  mb-4">
+                        <p class="text-uppercase mb-4 para position-relative">
+                            Newsletter
+                            <span class="position-absolute footerHeadingBorder"></span>
+                        </p>
+                        <div class="position-relative ">
+                            <input type="text" class="form-control my-5" placeholder="Pan Card Number"
+                                aria-label="Pan Card Number">
+                            <span class="position-absolute d-block top-0 SubscribeHome" >
+                                <button type="button" class="btn btn-secondary rounded-start-0">SUBSCRIBE</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between mt-5">
+                    <div>
+                        <p class="pay-ment">Payment</p>
+                        <div class="mt-4">
+                            <a href="#"><img src="image/image26.png" alt="" srcset="" class="img-fluid mx-1" width="70"
+                                    height="44"></a>
+                            <a href="#"><img src="image/image27.png" alt="" srcset="" class="img-fluid mx-1" width="70"
+                                    height="42"></a>
+                            <a href="#"><img src="image/image28.png" alt="" srcset="" class="img-fluid mx-1" width="85"
+                                    height="30"></a>
+                            <a href="#"><img src="image/image29.png" alt="" srcset="" class="img-fluid mx-1" width="62"
+                                    height="40"></a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="d-flex">
+                            <p class="pay-ment">WE ARE SOCIAL</p>
+
+                        </div>
+
+                        <a href="#"><img src="image/facebook-square-color-icon1.png" alt="" srcset=""
+                                class="img-fluid mx-1" width="40" height="40"></a>
+                        <a href="#"><img src="image/image31.png" alt="" srcset="" class="img-fluid mx-1" width="40"
+                                height="40"></a>
+                        <a href="#"><img src="image/twitter-app-icon1.png" alt="" srcset="" class="img-fluid mx-1"
+                                width="40" height="40"></a>
+                        <a href="#"><img src="image/image33.png" alt="" srcset="" class="img-fluid mx-1" width="40"
+                                height="40"></a>
+                        <a href="#"><img src="image/youtube-square-color-icon1.png" alt="" srcset=""
+                                class="img-fluid mx-1" width="40" height="40"></a>
+                    </div>
+
+                </div>
+                <span class="float-end position-fixed commentsImage">
+                    <img src="image/comments-icon1.png" alt="" srcset="" class="img-fluid">
+                </span>
+            </div>
+
+        </section>
+        <div class="p-3 mt-3 LandMArk" >
+            <a href="#" class=" text-center text-decoration-none text-white Copyright-Landmark">Copyright © 2023, Landmark. All Rights
+                Reserved</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,2250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Home Page  */
+
+.LandMArk {
+    background-color: #F7C20A;
+}
+
+.TopHamberger {
+    /* position: absolute; */
+    /* width: 1550px; */
+    /* height: 222px; */
+    /* left: -40px; */
+    /* top: -96px; */
+    background-image: url(../image/Group39.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    /* height: 126px; */
+    /* background: rgba(0, 0, 0, 0.7); */
+}
+
+#AboutColor {
+    color: #F7C20A;
+}
+
+
+
+.NewBlog {
+    position: absolute;
+    width: 313px;
+    height: 40px;
+    left: 563px;
+    top: 3820px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    letter-spacing: 0.75px;
+    color: #333332;
+
+}
+
+.NavbarBackgroundColor {
+    background: #F7C20A;
+}
+
+.nav-Border-Home {
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.nav-Color-Hover a:hover {
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+
+}
+
+.Line-5 {
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    left: 690px;
+    top: 3880px;
+    border: 2px solid #F7C20A;
+}
+
+.scnd-nav {
+    width: 100%;
+    margin: auto;
+}
+
+.Material-Carosual-Color {
+    color: #F7C20A;
+}
+
+.wholesale-material-Carosual {
+    left: 0;
+    right: 0;
+    bottom: 200px;
+
+}
+
+.for-rotate {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(90deg);
+    width: max-content;
+    padding: 0px 7px;
+    height: 35px;
+    padding-top: 15px;
+    text-align: center;
+    top: 450px;
+}
+
+/* .footerOFHomePage{
+    
+} */
+.footerOFHomePage .para {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #333332;
+}
+
+.footerOFHomePage a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+
+.footerOFHomePage a:hover {
+    color: rgba(247, 194, 10, 1);
+}
+
+
+.footerHeadingBorder {
+    border-bottom: 4px solid rgba(247, 194, 10, 1);
+    width: 60px;
+    top: 45px;
+    left: 0px;
+}
+
+.shopByCat {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #333332;
+}
+
+.viewAll {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    align-items: center;
+    color: #F7C20A;
+}
+
+.BricksandBlocks {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    /* display: flex; */
+    align-items: center;
+    color: #666666;
+}
+
+.Instock {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #01A601;
+    /* text-align:left; */
+    float: left;
+}
+
+.Del {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    text-decoration-line: line-through;
+    color: #FF0000;
+}
+
+.GradeCement {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #666666;
+}
+
+.whyUs {
+    border-bottom: 4px solid #F7C20A;
+    width: 60px;
+    top: 43px;
+    right: 614px;
+}
+
+.NewFromOur {
+    border-bottom: 4px solid #F7C20A;
+    width: 60px;
+    top: 43px;
+    right: 0px;
+    left: 0px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+.top-category {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    background-color: #F4F4F4;
+    color: #666666;
+    margin: 0;
+}
+
+/* .top-category-hover a :hover {
+    color: #F7C20A;
+} */
+
+.hover-top-cat:hover {
+    color: #F7C20A;
+}
+
+.hover-top-cat {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    /* display: flex; */
+    align-items: center;
+    color: #666666;
+    height: 61px;
+}
+
+.Sand-Agr {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #F7C20A;
+
+}
+
+.Card-Title-Serverside {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    /* or 172% */
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #333332;
+}
+
+.CharlieWalter {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 26px;
+    /* or 200% */
+    letter-spacing: 0.75px;
+}
+
+.CharlieWalter-Lorem-Ipsum {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+    letter-spacing: 0.75px;
+    color: #666666;
+}
+
+.New-From-Our-Blog {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    letter-spacing: 0.75px;
+    color: #333332;
+}
+
+.Why-us {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #333332;
+}
+
+.Download-Landmark {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 92px;
+    /* or 131% */
+    top: 20px;
+    left: 70px;
+    color: #666666;
+}
+
+.Fast-Simple-Delightful {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    color: #666666;
+    top: 259px;
+    left: 75px;
+}
+
+.Google-pay-home {
+    top: 359px;
+    left: 30px;
+}
+
+.app-store-home {
+    top: 423px;
+    left: 351px;
+}
+
+.Moduler-kitchen {
+    color: #F7C20A;
+}
+
+.Moduler-kitchen-Image {
+    border: 2px solid #F7C20A;
+}
+
+.Construction-Consult {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    /* identical to box height, or 172% */
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.Construction-ConsultLorem {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #666666;
+}
+
+.hidden {
+    display: none;
+}
+
+.SecurePayments {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    text-align: center;
+    align-items: center;
+
+    color: #666666;
+}
+
+.SecurePaymentsSummary {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #666666;
+}
+
+.Brands-with-us {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+    /* identical to box height */
+    color: #333332;
+
+}
+
+.Copyright-Landmark {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.pay-ment {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+
+.main-logo {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 74px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.Address {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.Browse-categories {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.Home {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.material-calculater {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Image-17 {
+    text-align: center;
+    align-items: center;
+    /* width: 220px; */
+    height: 233px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 2px 2px 5px rgba(153, 153, 153, 0.25);
+    border-radius: 10px;
+}
+
+.Featurd-Product-home {
+    right: 26px;
+    color: #F7C20A;
+    top: 10px;
+}
+
+.SubscribeHome {
+    right: 1px;
+}
+
+.commentsImage {
+    bottom: 134px;
+    right: 40px;
+}
+
+.wholesale-material {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+
+.wholesale-materialLorem {
+    font-family: 'Lao Muang Khong';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+
+
+
+/* 1 Product list page */
+
+.Home-cement-43GradeCement {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #999999;
+}
+
+.Advert-sment {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+
+.product-List-Pagination {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+}
+
+.Home-cement-43GradeCement a:hover {
+    color: #F7C20A;
+}
+
+.product-list-priceClass {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    /* display: flex; */
+    align-items: center;
+    color: #666666;
+}
+
+.product-list-priceClass a:hover {
+    color: #F7C20A;
+}
+
+.product-list-priceClass .accordion-header-hover:hover {
+    color: #F7C20A;
+}
+
+
+/*2 Cart page */
+
+.Shopping-Cart-BorderBottom {
+    border-bottom: 2px solid rgba(217, 217, 217, 0.9);
+}
+
+.RemoveColorCart {
+    color: #FF6161;
+}
+
+.SaveForLater {
+    color: #333332;
+}
+
+.price2500 {
+    color: #56B320;
+}
+
+.Total-Ammount-5000 {
+    font-weight: 400;
+}
+
+.streetAddressCheckout {
+    margin: 49px 0;
+}
+
+.Home-Brands-YourCart {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #999999;
+}
+
+.Home-Brands-YourCart a:hover {
+    color: #F7C20A;
+}
+
+
+.place-Holder {
+    background: #F7C20A;
+    border: 1px solid #F7C20A;
+    border-radius: 4px;
+    width: max-content;
+    margin: auto;
+
+}
+
+.placeHolder {
+    font-family: 'Open Sans';
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.cart-Details-complete {
+    background: #F2F2F2;
+    /* opacity: 0.5; */
+    border-radius: 10px;
+}
+
+.your-cart {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    color: #333332;
+}
+
+.your-cart-circle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    /* identical to box height */
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #F7C20A;
+}
+
+.your-cart-circless {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    /* identical to box height */
+    background: #DCDCDC;
+    color: #999999;
+}
+
+.checkout-details {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    color: #DCDCDC;
+}
+
+.Complete-Your-Order {
+    background: #23B423;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.Complete-Your-Order-Para {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.Shopping-Cart {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+    /* identical to box height */
+    color: #333332;
+    border-bottom: 3px solid #D9D9D9;
+}
+
+.price-Details-cart {
+    background: #EFF1F5;
+    border-radius: 10px;
+}
+
+.priceDetails {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    border-bottom: 2px solid rgba(204, 204, 204, 0.9);
+    /* identical to box height */
+    color: #333332;
+}
+
+.Price2Items {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #666666;
+}
+
+.Delivery-Charges {
+    border-bottom: 1px dashed #D9D9D9;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #666666;
+}
+
+.Total-Ammount {
+    border-bottom: 1px dashed #D9D9D9;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.You-will-save {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #56B320;
+}
+
+.lorem-Ipsum-Cart {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #666666;
+}
+
+.r-985 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #666666;
+}
+
+.inStockCart {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #23B423;
+}
+
+.Shipping-Charge-cart {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #666666;
+}
+
+.QTY-Cart {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #999999;
+}
+
+.your-cart-BorderRight {
+    border-bottom: 4px solid #F7C20A;
+    width: 159px;
+    top: 32px;
+    left: 75px;
+}
+
+.your-cart-BorderRighttt {
+    border-bottom: 4px solid #DCDCDC;
+    width: 159px;
+    top: 32px;
+    left: 210px;
+}
+
+.checkout-details-Border-right {
+    border-bottom: 4px solid #DCDCDC;
+    width: 340px;
+    top: 32px;
+    left: 77px;
+}
+
+/* 3 Checkout Details page */
+.InputRadioCheckout {
+    width: 20px;
+    height: 20px;
+}
+
+.Input-Check-Checkout {
+    width: 20px;
+    height: 20px;
+}
+
+.your-CheckoutDetails-BorderRight {
+    border-bottom: 4px solid #F7C20A;
+    width: 300px;
+    top: 32px;
+    left: 73px;
+}
+
+.your-Checkout-BorderRight {
+    border-bottom: 4px solid #F7C20A;
+    width: 172px;
+    top: 32px;
+    left: 75px;
+}
+
+.your-Checkout-BorderRighttt {
+    border-bottom: 4px solid #DCDCDC;
+    width: 172px;
+    top: 32px;
+    left: 245px;
+}
+
+.Your-Order-checkout {
+    background: #EFF1F5;
+    border-radius: 10px;
+}
+
+.LeftPartOfCheckout {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #666666;
+}
+
+.place-Holder-Checkout {
+    background: #F7C20A;
+    border: 1px solid #F7C20A;
+    border-radius: 10px;
+}
+
+.placeHolderCheckout {
+    font-family: 'Open Sans';
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.yourOrderCheckout {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+    /* identical to box height */
+    color: #333332;
+}
+
+.BrijeshKumarAkbrabad {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+}
+
+.SubTotalCheckout {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #666666;
+}
+
+.checkout45 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #666666;
+}
+
+.checkoutBlack {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333332;
+}
+
+.MM-YY-Checkout {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: rgba(204, 204, 204, 0.9);
+}
+
+
+/* 4  Order Complete Page */
+
+.BrijeshKumarOrderCompete {
+    color: #333332;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.PhoneNumberOrderComplete {
+    color: #666666;
+}
+
+.AccA1OpcOrderComplete {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333332;
+}
+
+.Acc-Delivery-OffersApplied {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}
+
+.DeliveryExpectedOrder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #333332;
+}
+
+.OffferAppliedOder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #333332;
+}
+
+.CancelOrder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #F7C20A;
+}
+
+.BorderBottomAccDeliveryOffered {
+    border-bottom: 1px solid #CDC6C6;
+}
+
+.Seller-Green-touch {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #999999;
+}
+
+
+.GoToMyOrders {
+    background: #F7C20A;
+    border-radius: 5px;
+    width: max-content;
+}
+
+.Go-To-My-Orders {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.order-Placed-For-222 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #F7C20A;
+}
+
+.Your-One-Item {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #666666;
+}
+
+.Why-call-just-click {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    /* identical to box height */
+    color: #666666;
+}
+
+.EasilyTrackAllYour {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #666666;
+}
+
+.delivery-address-orederComplete {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333332;
+}
+
+.Pay-now-orderComplete {
+    border: 1px solid #F7C20A;
+    border-radius: 5px;
+    width: 160px;
+}
+
+.your-orderComplete-BorderRight {
+    border-bottom: 4px solid #F7C20A;
+    width: 342px;
+    top: 32px;
+    left: 73px;
+}
+
+
+/* Product Details Page */
+
+
+.E-Triveni-ProductDetails {
+    border: 1px solid rgba(217, 217, 217, 0.9);
+}
+
+.Liters-E-Triveni {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #666666;
+}
+
+.star44Body {
+    background: #56B320;
+    border-radius: 3px;
+    width: max-content;
+    height: max-content;
+}
+
+.star44 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+    padding: auto;
+}
+
+.Rating303Review {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #666666;
+}
+
+.SpecialPriceProduct {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #F7C20A;
+}
+
+.RS1486 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.RS1749 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration-line: line-through;
+    color: #999999;
+}
+
+.RS15OFF {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #56B320;
+}
+
+.MrBrijeshNoida {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.SpecificationProduct {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.DimenssionsProduct {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #666666;
+}
+
+.addToCartBody {
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    width: 240px;
+    height: 70px;
+    text-align: center;
+}
+
+.addToCart {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333332;
+}
+
+.BuyNoWBody {
+    background: #F7C20A;
+    border-radius: 6px;
+    width: 240px;
+    height: 70px;
+    text-align: center;
+}
+
+.BuyNow {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* Bestseller page  */
+
+
+.ImageWidthSeller {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #D9D9D9;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.PreNextButton {
+    background: #D9D9D9;
+    border-radius: 5px;
+    width: max-content;
+}
+
+
+/* Create Account Page */
+
+
+.InputOFCreateAcount {
+    background: #FBFBFB;
+    border: 1px solid rgba(204, 204, 204, 0.9);
+    border-radius: 6px;
+}
+
+.RegisterAcount {
+    background: #F7C20A;
+    border-radius: 10px;
+    width: max-content;
+    margin: auto;
+    height: max-content;
+}
+
+.Register-Acount {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 41px;
+    /* identical to box height */
+    /* display: flex; */
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.Or-Contiune-With {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #333332;
+}
+
+.LoginAccount {
+    color: #F7C20A;
+}
+
+.PleaseEnterTheACN {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #333332;
+}
+
+.Create-An-Account {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: #333332;
+}
+
+.Create-An-Account-Span {
+    left: 0;
+    right: 0;
+    width: 60px;
+    border-bottom: 4px solid #F7C20A;
+}
+
+.LeftOrContiuneWith {
+    width: 450px;
+    border: 1px solid #999999;
+}
+
+.RightOrContiuneWith {
+    width: 450px;
+    border: 1px solid #999999;
+}
+
+/* Brands Page */
+
+.BrandsBg {
+    background: #F7F8FA;
+    border-radius: 10px;
+}
+
+.Input-Check-Brand {
+    width: 22px;
+    height: 22px;
+}
+
+.BrandBorder {
+    border-bottom: 1px solid #999999;
+}
+
+.BrandName {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #7E7373;
+}
+
+.BrandsHeading {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    /* identical to box height */
+    color: #333332;
+}
+
+.SerchBrandIcon {
+    left: 10px;
+    top: 5px
+}
+
+/* Login Page */
+
+.Forget-Password-Login {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    color: #333332;
+}
+
+.DontWorryWeWill {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #999999;
+}
+
+.Change-password-Login {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+    /* identical to box height */
+    color: #333332;
+}
+
+.LoginButton {
+    background: #F7C20A;
+    border-radius: 10px;
+}
+
+.Login-Btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+/* Blog page */
+
+
+.WelcomeToOurBlog {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+    top: 40%;
+    color: #FFFFFF;
+}
+
+.Phone-Number-Login {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333332;
+}
+
+.Form-contol-LOgin {
+    background: #FBFBFB;
+    border: 1px solid rgba(204, 204, 204, 0.9);
+    border-radius: 6px;
+}
+
+.NotRegisterYet {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333332;
+}
+
+.LoginInWithYour {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+}
+
+.HelloWelcomeBackLOgin {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+    /* identical to box height */
+    color: #333332;
+}
+
+/* Selelr Policy page */
+
+.SellerPolicyPage {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #333332;
+}
+
+.BorderBottomSellerPolicy {
+    width: 60px;
+    border-bottom: 4px solid #E5D110;
+}
+
+.SellerPolicyFooter {
+    color: #F7C20A;
+}
+
+.General-Plocicies-and-Rules {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    color: #F7C20A;
+}
+
+.Moudlies-policies-SallerPolicy {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    color: #666666;
+}
+
+.Moudlies-policies-SallerPolicy-Rules {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    color: #666666;
+}
+
+
+/* Mission and vission  page*/
+.MissionAndVission {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: #333332;
+}
+
+.Mission-And-Vission {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    color: #333332;
+}
+
+.CustmorAgent {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #999999;
+}
+
+.MissionVission {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: #333332;
+}
+
+
+/* Blogss page */
+
+.MelancholyMiddletonsYet {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 25px;
+    color: #333332;
+}
+
+.dec9th2015 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #666666;
+}
+
+.KennyMinh {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #666666;
+}
+
+.VimamusImperdiat {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+    color: #999999;
+}
+
+.FiveMonthsAgo {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* or 138% */
+    color: #999999;
+}
+
+.DesigningHealthcare {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #333332;
+}
+
+.ByCharlieWalterJanuary {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color:
+        rgba(153, 153, 153, 1);
+}
+
+
+.LoremIpsumBlogss {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    /* or 176% */
+
+
+    color: #999999;
+}
+
+.CategoriesBlogss {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #333332;
+}
+
+.CategoriesBlogssBorderBottom {
+    border-bottom: 4px solid #F7C20A;
+    width: 60px;
+
+}
+
+.PhotoShopBlogs {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    /* or 222% */
+    color: #666666;
+}
+
+/* Terms and Privacy page */
+
+.TermsAndPrivacy {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #333332;
+}
+
+.WhatAreTerms {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    color: #F7C20A;
+}
+
+.CustmorAgentHas {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    color: #666666;
+}
+
+
+/* Refund and Cancilation page */
+.refundAndCancilation {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: #333332;
+}
+
+.HowManyDaysCustmor {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #333332;
+}
+
+.PleaseNoeThat {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+
+    color: #666666;
+}
+
+.TypeCheckboxRefund {
+    width: 25px;
+    height: 25px;
+}
+
+.TypeRadioRefund {
+    width: 25px;
+    height: 25px;
+}
+
+/* career page */
+
+.BgOfCareer {
+    background: #FFFFFF;
+    border: 1px solid #EFF1F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.TechnologyCareer {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    color: #333332;
+}
+
+.Opening16 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #999999;
+}
+
+.PerfectingTHePlatform {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+
+    color: #333332;
+
+}
+
+.Careers {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+
+    color: #333332;
+}
+
+
+/* Become a seller */
+
+.bgOfBecome {
+    background: #F7F8FA;
+}
+
+.BecomeSeller {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: #F7C20A;
+}
+
+
+.PleaseEnterTheFollowing {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #333332;
+}
+
+.CreateAnAccount {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #333332;
+}
+
+.loremIpsumBecome {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* text-align: center; */
+    color: #666666;
+}
+
+/* Return Policy Page */
+
+
+.InterPretation {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #666666;
+}
+
+.OurReturnPolicy {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #666666;
+}
+
+/* FAQS page */
+
+.FAQs {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    color: #F7C20A;
+}
+
+
+/* About Page */
+
+.TheStandradLoremIpsum {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    color: #F7C20A;
+}
+
+.SedQuiaConsiquter {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+}
+
+.ContactWithUs {
+    background: #EFF1F5;
+    border-radius: 10px;
+}
+
+.locContact {
+    right: 36px;
+    bottom: 15px;
+}
+
+.LetsStartAConversation {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #999999;
+}
+
+.YourNameConatct {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #999999;
+}
+
+.YourNameControlInput {
+    background: #FBFBFB;
+    border: 1px solid rgba(217, 217, 217, 0.9);
+    border-radius: 3px;
+}
+
+.ContactWithUsContact {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #333332;
+}
+
+.MarutiNo16 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #999999;
+}
+
+.SendYourMeaasage {
+    background: #F7C20A;
+    border-radius: 10px;
+    width: max-content;
+}
+
+.Send-you-msg {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* New Css */
+
+
+/* Order Complete Page */
+.Total-OrderComplete {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333332;
+    margin-right: 150px;
+}
+
+.pagination-Product_list2 {
+    background-color: #F7C20A;
+}
+
+.CartIconOfProductList {
+    top: 195px;
+    bottom: 0px;
+}
+
+.Advertisment-ProductList {
+    left: 120px;
+}
+
+.Previous-ProductList {
+    color: #666666;
+}
+
+
+.product-List-Pagination a:hover {
+    background-color: #F7C20A;
+    color: white;
+}
+
+.YourNameControlInput::-webkit-input-placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #999999;
+}
+
+.E-Triveni-General {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.KaberiTank {
+    border: 1px solid rgba(217, 217, 217, 0.9);
+}
+
+.KaberiTankYellow {
+    border: 2px solid #F7C20A;
+}
+
+.RefundCircleBorder {
+    border: 2px solid #F7C20A;
+    height: 35px;
+    top: 37px;
+    right: 19px;
+}
+
+.RefundWhiteBdr {
+    border: 2px solid #D9D9D9;
+    ;
+    height: 18px;
+    top: 55px;
+    right: 19px;
+}
+
+.RefundWhiteBorder {
+    border: 2px solid #D9D9D9;
+    height: 35px;
+    top: 37px;
+    right: 19px;
+}
+
+.bgOfRefund {
+    background: #D9D9D9;
+}
+
+.HambergerInput {
+    right: 8px;
+    top: 8px;
+}
+
+.ForgetModelLogin {
+    width: max-content;
+    float: right;
+    top: -23px;
+    left: 60px;
+    position: relative;
+}
+
+.ForgetModel {
+    width: max-content;
+    float: right;
+    top: -18px;
+    left: 75px;
+    position: relative;
+}
+
+.ForgetModelChange {
+    width: max-content;
+    float: right;
+    top: -20px;
+    left: 26px;
+    position: relative;
+}
+
+.LeftOrContiuneWith {
+    width: 200px;
+    border: 5px solid #999999;
+}
